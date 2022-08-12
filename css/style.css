@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Didact Gothic', sans-serif;
+	color: #251B20;
+	letter-spacing: 0;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.81;
+}
+.container{
+	max-width: 1483px;
+	width: 100%;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.head_icon ul {
+    position: relative;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+.head_icon ul li{
+	margin: 0 15px;
+}
+.head_icon ul li:last-child{
+	margin-right: 0;
+}
+
+.header .navbar-collapse{
+	justify-content: center;
+}
+.header .navbar-light .navbar-nav .nav-link{
+	font-size: 15px;
+	line-height: 18px;
+	letter-spacing: 0.23em;
+	text-transform: uppercase;
+	color: #000000;
+	transition: all .45s ease-in-out;
+}
+.header .navbar-light .navbar-nav .nav-link:hover{
+	color: #E2338C;
+}
+.header .navbar-light .navbar-nav .nav-item.active{
+	font-weight: 500;
+}
+
+
+
+.banner .banner_img img{
+	width: 100%;
+}
+.banner {
+	position: relative;
+}
+.banner .banner-cnt h2 {
+    font-weight: 500;
+    font-size: 65px;
+    line-height: 93.2%;
+    letter-spacing: -0.035em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    text-shadow: 2px 0px 0px #000000;
+}
+.banner .banner-cnt .btn a{
+	font-size: 14px;
+    line-height: 12px;
+    text-align: center;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+    color: #000000;
+    text-decoration: none;
+    background: #FFFFFF;
+    padding: 17px 29px;
+    display: inline-block;
+}
+.banner .banner-cnt{
+	position: absolute;
+    top: 50%;
+    left: 30%;
+    width: 19%;
+    transform: translate(-50%, -50%);
+}
+
+.body-care{position: relative;}
+.body-care .container-fluid {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+.body-care .bd-img img{width: 100%;}
+.body-care .bd-img .bd-cnt{
+	position: absolute; 
+	top: 6%; left: 50%; 
+	transform: translate(-50%);
+}
+.body-care .bd-img .bd-cnt h3{
+	font-size: 26px;
+	line-height: 26px;
+	text-align: center;
+	letter-spacing: 0.14em;
+	text-transform: uppercase;
+	color: #000000;
+}
+.body-care .bd-img .bd-cnt p{
+	line-height: 26px;
+	text-align: center;
+	color: #251B20;
+}
+.body-care .bd-img .bd-cnt .bd-btn{text-align: center;}
+.body-care .bd-img .bd-cnt .bd-btn a{
+    position: relative;
+    font-size: 14px;
+    line-height: 12px;
+    text-align: center;
+    letter-spacing: .4em;
+    text-transform: uppercase;
+    color: #000;
+    text-decoration: none;
+    font-family: Didact Gothic;
+    background: #FFFFFF;
+    border: 2px solid #CC869C;
+    padding: 16px 34px;
+    display: inline-block;
+    transition: all .45s ease-in-out;
+}
+.body-care .bd-img .bd-cnt .bd-btn a:hover{
+	color: #FFFFFF;
+	background: #CC869C;
+}
+
+
+.slider-sec {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    background: #000;
+    padding: 15px 0;
+}
+.slider-sec .cnt-slider .item h4{
+	font-weight: 500;
+	font-size: 13px;
+	text-align: center;
+	line-height: 17px;
+	letter-spacing: 0.24em;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	margin: 0;
+}
+
+
+.home3-main {
+	position: relative;
+	overflow: hidden;
+}
+.home3-main .container-fluid {
+    padding: 0;
+}
+.home3-main .lft-itm img{
+	width: 100%;
+}
+.home3-main .row{
+	align-items: center;
+	background: #FAF8F3;
+}
+.home3-main .rgt-itm{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width: 515px;
+	width: 100%;
+}
+.home3-main .rgt-itm .inner h5{
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 130.7%;
+	letter-spacing: 0.215em;
+	text-transform: uppercase;
+	color: #E2338C;
+}
+.home3-main .rgt-itm .inner h2{
+	font-weight: 500;
+	font-size: 50px;
+	line-height: 107.2%;
+	color: #000000;
+}
+.home3-main .rgt-itm .inner p{
+	line-height: 26px;
+	color: #251B20;
+}
+.home3-main .rgt-itm .inner .learn-btn a{
+	position: relative;
+    font-size: 14px;
+    line-height: 12px;
+    text-align: center;
+    letter-spacing: .4em;
+    text-transform: uppercase;
+    color: #000;
+    text-decoration: none;
+    font-family: Didact Gothic;
+    background: #FFFFFF;
+    border: 2px solid #CC869C;
+    padding: 16px 34px;
+    display: inline-block;
+    transition: all .45s ease-in-out;
+}
+.home3-main .rgt-itm .inner .learn-btn a:hover{
+	color: #FFFFFF;
+	background: #CC869C;
+}
+
+.home5-main .review-slider .slick-prev:before{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 11px;
+	height: 22px;
+	background-image: url("data:image/svg+xml,%3Csvg width='14' height='24' viewBox='0 0 14 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M13 1L2 12L13 23' stroke='black' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E%0A");
+	background-size: cover;
+	background-position: center;
+}
+.home5-main .review-slider .slick-next:before{
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 11px;
+	height: 22px;
+	background-image: url("data:image/svg+xml,%3Csvg width='14' height='24' viewBox='0 0 14 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1L12 12L1 23' stroke='black' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E%0A");
+	background-size: cover;
+	background-position: center;
+}
+.home5-main .review-slider .item {
+	padding: 0 30px;
+}
+
+.home5-main .review-slider .item .star_img img{
+	margin: 0 auto;
+}
+.home5-main .review-slider .item h4{
+	font-size: 20px;
+	line-height: 116.7%;
+	text-align: center;
+	color: #000000;
+	padding: 0 110px;
+}
+.home5-main .review-slider .item p{
+	line-height: 28px;
+	color: #251B20;
+}
+.home5-main .review-slider .item h5{
+	font-size: 20px;
+	line-height: 28px;
+	color: #000000;
+	margin-top: 15px;
+}
+.home5-main {
+	background: #F8F8F8;
+	padding: 45px 0;
+	margin-top: 85px;
+}
+.home5-main .sec_tittel h2{
+	font-weight: 500;
+	font-size: 50px;
+	line-height: 107.2%;
+	text-align: center;
+	color: #000000;
+}
+
+
+.instragram-feed{
+	position: relative;
+	overflow: hidden;
+}
+.instragram-feed .image img{
+	opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.instragram-feed .image .overly{
+	transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.instragram-feed .image:hover img{
+	opacity: 0.3;
+}
+.instragram-feed .image:hover .overly{
+	opacity: 1;
+}
+.instragram-feed .image .overly i{
+	font-size: 30px;
+    width: 73px;
+    height: 73px;
+    background: #FFFFFF;
+    opacity: 1;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
